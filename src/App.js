@@ -12,12 +12,12 @@ export default function App() {
   // uusing ternary
   // let answer = isGoingOut ? "Yes" : "No";
 
-  // let answer; // Use ternary here
-  // if (isGoingOut === true) {
-  //   answer = "Yes";
-  // } else {
-  //   answer = "No";
-  // }
+  let answer; // Use ternary here
+  if (isGoingOut === true) {
+    answer = "Yes";
+  } else {
+    answer = "No";
+  }
 
   function changeMind() {
     setIsGoingOut((prevState) => !prevState);
